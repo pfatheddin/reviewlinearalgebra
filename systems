@@ -1,0 +1,164 @@
+\documentclass{ximera}
+
+\author{Parisa Fatheddin}
+
+\begin{document}
+
+\begin{center}
+\youtube{ywFTRA2NtpM}
+\end{center}
+
+\begin{exercise}
+
+Solve the following system using Gaussian elimination.
+\begin{eqnarray*}
+x-2y&=& 1\\
+3y+2z &=& -1\\
+2x +4z &=& -2
+\end{eqnarray*}
+\begin{prompt}
+The augmented matrix is:
+\[
+\left(\begin{array}{ccc|c}
+  \answer{1} &  \answer{-2} & \answer{0} &1 \\
+  \answer{0} & \answer{3} & \answer{2} & -1 \\
+  \answer{2} &  \answer{0} & \answer{4} & -2
+\end{array}\right)
+\]
+The row-echelon form of the above matrix is:
+\[
+\left(\begin{array}{ccc|c}
+  \answer{1} &  \answer{-2} & \answer{0} &1 \\
+  \answer{0} & \answer{1} & \answer{1} & -1 \\
+  \answer{0} &  \answer{0} & \answer{-1} & 2
+\end{array}\right)
+\]
+\begin{hint}
+Note that after getting the first column in the right form, since every entry in the third row is divisible by 4 it is easier to switch $2^{nd}$ and $3^{rd}$ rows before making the second column in the right form.
+\end{hint}
+\end{prompt}
+Solution: \hspace{.6cm} $x = \answer{3}$, \hspace{.6cm} $y = \answer{1}$, \hspace{.6cm} $z= \answer{-2}$
+
+\end{exercise}
+\begin{exercise}
+Consider the following system of linear equations:
+\begin{align*}
+      3x + 5z &=  -15 \\
+     2y+4x+3z&= -1\\
+     3x -9z&= 27
+\end{align*}
+\begin{enumerate}
+\item Express this system as an augmented matrix.
+\begin{prompt}
+\[
+\left(\begin{array}{ccc|c}
+  \answer{3} &  \answer{0} & \answer{5} &-15 \\
+  \answer{4} & \answer{2} & 3 & \answer{-1} \\
+  \answer{3} &  \answer{0} & -9 & \answer{27}
+\end{array}\right)
+\]
+\end{prompt}
+\item Use row operations to convert this matrix to row echelon form.
+  Ensure that each pivot is scaled to one.
+\begin{prompt}
+\[
+\left(\begin{array}{ccc|c}
+  \answer{1} &  \answer{0} & \answer{5/3} &\answer{-5} \\
+  \answer{0} & \answer{1} & \answer{-11/6} & \answer{19/2} \\
+  \answer{0} &  \answer{0} & \answer{1} & \answer{-3}
+\end{array}\right),
+\]
+\end{prompt}
+\item Convert this augmented matrix back to a system of equations
+and give the solution.
+\begin{prompt}
+\begin{align*}
+      \left(\answer{1}\right)x + \left(\answer{0}\right)y + \left(\answer{5/3}\right)z &= \answer{-5} \\
+     \left(\answer{1}\right)y+\left(\answer{-11/6}\right)z&=\answer{19/2}\\
+     z&=\left(\answer{-3}\right)
+\end{align*}
+Our solution is:
+\[
+x= \answer{0}, \quad y= \answer{4}, \quad z=\answer{-3}.
+\]
+\end{prompt}
+\end{enumerate}
+\end{exercise}
+\begin{exercise} Consider system of equations,
+\begin{eqnarray*}
+\frac{2}{3}x + \frac{1}{6}y -2z &=& 5\\
+-4x -y+12z &=& -30\\
+5x-20w &=& 40\\
+2x+\frac{1}{2} y - 6z &=& 15
+\end{eqnarray*}
+a. What is its augmented matrix row-echelon form? \\
+\begin{prompt}
+Noting that the third row in the augmented matrix has the most number of zeros, begin by applying $R_{1}\leftrightarrow R_{3}$. Row-echelon form:
+\[
+\left(\begin{array}{ccccc|c}
+  \answer{1} &  \answer{0} & \answer{0} & \answer{-4} &\answer{8} \\
+  \answer{0} &  \answer{1} & \answer{-12} & \answer{16} &\answer{-2}\\
+  \answer{0} &  \answer{0} & \answer{0} & \answer{0} &\answer{0}\\
+  \answer{0} &  \answer{0} & \answer{0} & \answer{0} &\answer{0}
+\end{array}\right),
+\]
+\end{prompt}
+
+b. Solve the system. \\
+\begin{prompt}
+Based on part a, the system has \wordChoice{\choice{no solutions} \choice{$x=0, y=0, z=0, w=0$} \choice[correct]{infinitely many solutions}\choice{$x=4, y=12, z=$ undefined, $w=$ undefined}} and for arbitrary real numbers $r,s$,
+\begin{eqnarray*}
+w&=& r\\
+z &=& \answer{s}\\
+y &=& \answer{-16}\hspace{.08cm}r + \answer{12}\hspace{.08cm}s + \answer{-2}\\
+x&=& \answer{4}\hspace{.08cm} r + \answer{0}\hspace{.08cm}s + \answer{8}
+\end{eqnarray*}
+\end{prompt}
+\end{exercise}
+\begin{exercise}
+Suppose after writing a system of equations in the form of a matrix and some row reductions, we obtain the following matrix:
+\[
+\left(\begin{array}{ccc|c}
+  1 &  7 & 8 &0 \\
+   0&  1 & 9 & 2\\
+  0 &  a & b & c
+\end{array}\right)
+\]
+Find the smallest whole numbers (greater than or equal to zero) for $a,b,c$ that would make the system have no solution or infinitely many solutions.\\
+
+\begin{prompt}
+
+No solutions: $a= \answer{0}, \hspace{.2cm} b = \answer{0}, \hspace{.2cm} c= \answer{1}$\\
+
+Infinitely many solutions: $a= \answer{0}, \hspace{.2cm} b= \answer{0}, \hspace{.2cm} c= \answer{0}$
+\end{prompt}
+\end{exercise}
+\begin{exercise}
+
+Solve the following system using Gaussian elimination.
+\begin{eqnarray*}
+\frac{3}{4}x+2y&=& 8\\
+2x-4y+z &=& 10\\
+\frac{3}{5}x+\frac{8}{5}y&=& \frac{32}{5}
+\end{eqnarray*}
+\begin{prompt}
+First convert fractions in each equation to numbers by multiplying both sides by the common denominator. The system then becomes:
+\begin{eqnarray*}
+\answer{3}x +\answer{8}y + \answer{0} z &=& \answer{64}\\
+\answer{2}x - \answer{4}y +\answer{1}z &=& \answer{10}\\
+\answer{3}x + \answer{8}y +\answer{0}z &=& \answer{32}
+\end{eqnarray*}
+Looking at the equations above, without doing any calculations, what can you say about the number of solutions?
+\begin{multipleChoice}
+\choice{infinitely many solutions}
+\choice{one solution}
+\choice[correct]{no solution}
+\end{multipleChoice}
+\end{prompt}
+
+
+\end{exercise}
+
+
+
+\end{document} 
