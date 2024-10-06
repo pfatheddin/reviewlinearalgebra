@@ -1,0 +1,133 @@
+\documentclass{ximera}
+
+\author{Parisa Fatheddin}
+
+
+
+\begin{document}
+\begin{center}
+\youtube{mxk9EBmVXXs}
+\end{center}
+\begin{exercise}
+  Determine the eigenvalues and eigenvectors of the following matrices. List the eigenvalues in increasing order and for each eigenvector use the letter $t$, then if you need more letters use $s$.
+
+ a.  \[\begin{pmatrix}
+  2& -1\\
+  5 & 3
+  \end{pmatrix}
+  \]
+  \begin{prompt}
+  The eigenvalues are: $\lambda_{1}= \answer{-1}$, \hspace{.5cm} $\lambda_{2} = \answer{6}$. \\
+  The eigenvector for $\lambda_{1}$ is
+  \begin{equation*}
+  \textbf{x} = \begin{pmatrix}
+  \answer{-2t}\\
+  \answer{t}
+  \end{pmatrix}
+  \end{equation*}
+  The eigenvector for $\lambda_{2}$ is
+  \begin{equation*}
+  \textbf{x} = \begin{pmatrix}
+  \answer{-\frac{3}{2}t}\\
+  \answer{t}
+  \end{pmatrix}
+  \end{equation*}
+\end{prompt}
+
+b. 
+\[\begin{pmatrix}
+3& 0 & 4\\
+0 & 7 & 0\\
+0 & 5 & -2
+\end{pmatrix}
+\]
+\begin{prompt}
+The eigenvalues are $\lambda_{1}= \answer{-2}, \hspace{.5cm} \lambda_{3}= \answer{1}, \hspace{.5cm} \lambda_{3}= \answer{7}$\\
+The eigenvector associated with $\lambda_{1}$:
+\[
+\begin{pmatrix}
+\answer{-\frac{4}{5}t}\\
+\answer{0}
+\answer{t}
+\end{pmatrix}
+\]
+The eigenvector associated with $\lambda_{2}$:
+\[
+\begin{pmatrix}
+\answer{t}\\
+\answer{0}
+\answer{0}
+\end{pmatrix}
+\]
+The eigenvector associated with $\lambda_{3}$:
+\[
+\begin{pmatrix}
+\answer{t}\\
+\answer{\frac{9}{5}t}
+\answer{t}
+\end{pmatrix}
+\]
+\end{prompt}
+\end{exercise}
+
+\begin{exercise}
+If the characteristic equation is
+\begin{equation*}
+\lambda^{3}-\lambda^{2} - 14\lambda +24 =0,
+\end{equation*}
+what are the eigenvalues? Give them in increasing order.
+\begin{prompt}
+\begin{hint}
+Find one factor by trying simple numbers such as $-1, 1, 2, -2$. Then use long division to find the other factors.
+\end{hint}
+Eigenvalues are: $\lambda_{1} = \answer{-4}, \hspace{.5cm} \lambda_{2}= \answer{2}, \hspace{.5cm} \lambda_{3} = \answer{3}$
+\end{prompt}
+
+\end{exercise}
+
+\begin{exercise}
+
+Find the eigenvalues and eigenvectors of the following matrix. Give eigenvalues in increasing order and use $t$ then $s$ for eigenvectors.
+\[
+\begin{pmatrix}
+6 & -3 & 5\\
+7 & -4 & 1\\
+0 & 0 & 2
+\end{pmatrix}
+\]
+\begin{prompt}
+eigenvalues are: $\lambda_{1} = \answer{-1}, \hspace{.5cm} \lambda_{2}= \answer{2}, \hspace{.5cm} \lambda_{3} = \answer{3}$
+
+eigenvector associated with $\lambda_{1}$:
+\[
+\begin{pmatrix}
+\answer{-t}\\
+\answer{0}\\
+\answer{t}
+\end{pmatrix}
+\]
+eigenvector associated with $\lambda_{2}$:
+\[
+\begin{pmatrix}
+\answer{-\frac{46}{82}t}\\
+\answer{-\frac{3}{41}}\\
+\answer{t}
+\end{pmatrix}
+\]
+eigenvector associated with $\lambda_{3}$:
+\[
+\begin{pmatrix}
+\answer{-\frac{3}{7}t}\\
+\answer{0}\\
+\answer{t}
+\end{pmatrix}
+\]
+\end{prompt}
+
+\end{exercise}
+
+
+
+
+
+\end{document} 
