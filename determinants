@@ -1,0 +1,116 @@
+\documentclass{ximera}
+\author{Parisa Fatheddin}
+
+
+
+%\input{../../../preamble.tex}
+
+
+
+\begin{document}
+\begin{center}
+\youtube{8JjSktdNehE}
+\end{center}
+\begin{exercise}
+Compute the determinant of the following matrices:
+\[
+A=
+\begin{pmatrix}
+-1 & 5\\
+4 & -7
+\end{pmatrix},\  B = \begin{pmatrix} 0 & 6\\
+-1 & 0
+\end{pmatrix},\ C= \begin{pmatrix} 2 & -3 \\
+0 & 0
+\end{pmatrix},\ D = \begin{pmatrix} 2 & -8 \\
+1 & -4
+\end{pmatrix},
+\]
+\[
+E = \begin{pmatrix}
+1 & -1 & 3\\
+0 & 4 & 1\\
+-2 & 5 & -1
+\end{pmatrix}
+\]
+\begin{prompt}
+\begin{align*}
+\det(A) &= \answer{-13}\\
+\det(B) &= \answer{6}\\
+\det(C) &= \answer{0}\\
+\det(D) &= \answer{0}\\
+\det{E} &= \answer{17}
+\end{align*}
+\end{prompt}
+\end{exercise}
+
+\begin{exercise}
+
+Let
+
+\[A = \begin{pmatrix}
+-2 & 0 & 3\\
+2 & 1 & 4 \\
+0 & -2 & 0
+\end{pmatrix}.
+\]
+
+\begin{enumerate}
+\item Find $\det(A)$ by cofactor expansion along the first row.
+
+  \begin{prompt}
+    \[
+      \det(A) = \left(\answer{-2}\right)\left(\answer{8}\right) + \answer{0} + \left(\answer{3}\right)\left(\answer{-4}\right) = \answer{-28}
+    \]
+  \end{prompt}
+
+\item Find $\det(A)$ by cofactor expansion along the third column.
+
+  \begin{prompt}
+    \[
+      = \left(\answer{3}\right)\left(\answer{-4}\right) + \left(\answer{-4}\right) \left(\answer{4}\right) + \answer{0} = \answer{-28}
+    \]
+  \end{prompt}
+
+\item Find $\det(A)$ by cofactor expansion along the second row.
+
+  \begin{prompt}
+    \[
+      = \left(\answer{-2}\right)\left(\answer{6}\right) + \left(\answer{1}\right)\left(\answer{0}\right) + \left(\answer{-4}\right)\left(\answer{4}\right)= \answer{-28}
+    \]
+  \end{prompt}
+
+\item Do these expansions give the same result?
+
+  \begin{prompt}
+    \begin{multipleChoice}
+      \choice[correct]{yes}
+      \choice{no}
+    \end{multipleChoice}
+  \end{prompt}
+
+\end{enumerate}
+
+\end{exercise}
+\begin{exercise}
+
+
+Find the determinant of the following $4\times4$ matrix.
+\[
+A = \begin{pmatrix}
+2 & 0 & 0 & 3\\
+-2 & 0 & 5 & 1\\
+-1 & 4 & 0 & 2\\
+0 & 3 & 0 & 7
+\end{pmatrix}
+\]
+
+\begin{prompt}
+\[
+= \answer{-175}
+\]
+\end{prompt}
+\end{exercise}
+
+
+\end{document}
