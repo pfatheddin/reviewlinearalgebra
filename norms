@@ -1,0 +1,80 @@
+\documentclass{ximera}
+
+\author{Parisa Fatheddin}
+
+%\input{../../../preamble.tex}
+
+\begin{document}
+\begin{center}
+\youtube{Jqldt4xmm9Q}
+\end{center}
+\begin{exercise}
+  Which of the following vectors is/are orthogonal to $ \vec{v} = \begin{pmatrix} 1 & 5 & -2 & 0 \end{pmatrix}$.
+  \begin{selectAll}
+      \choice[correct]{$\vec{u} = \begin{pmatrix} 0 & 2 & 5 & 3 \end{pmatrix}$}
+      \choice{$\vec{u} = \begin{pmatrix} 1 & 5 & -2 & 0 \end{pmatrix}$}
+      % Zero vector is orthogonal to any vector.
+      \choice[correct]{$\vec{u} = \begin{pmatrix} 0 & 0 & 0 & 0 \end{pmatrix}$}
+      \choice[correct]{$\vec{u} = \begin{pmatrix} 4 & 1 & 9/2 & 10 \end{pmatrix}$}
+      \choice{$\vec{u} = \begin{pmatrix} 1 & 0 & 0 & 0 \end{pmatrix}$}
+      \choice[correct]{$\vec{u} = \begin{pmatrix} 1/3 & 3/5 & 5/3 & 2/3 \end{pmatrix}$}
+      \choice{$\vec{u} = \begin{pmatrix} 2 & -2/5 & 1 & 0 \end{pmatrix}$}
+  \end{selectAll}
+\end{exercise}
+\begin{exercise}
+  For the vectors
+  \[
+    \vec{u} = \begin{pmatrix} 2\\ -3\\ -4 \end{pmatrix}, \quad
+    \vec{v} = \begin{pmatrix} -5\\ 0\\ 1 \end{pmatrix}, \quad
+    \vec{w} = \begin{pmatrix} 3 \\ 1 \\ -4 \end{pmatrix},
+  \]
+  find the following. Round answers to two decimal places, writing
+  ``NA'' if it is not possible.
+  \begin{hint}
+  dot product of two scalars = product of the scalars
+  \end{hint}
+  \begin{enumerate}
+    \item $\|\vec{u}\| + \|\vec{u}\|_{1} + \|\vec{u}\|_{\infty}$
+      \begin{prompt}
+        $=\answer{18.39}$
+      \end{prompt}
+    \item $2 \|\vec{v}\|_{\infty} \|\vec{w}\|_{\infty}$
+      \begin{prompt}
+        $=\answer{40}$
+      \end{prompt}
+    \item $\frac{\vec{u}}{\|\vec{v}\|_{1} \|\vec{w}\|_{1}}$
+      \begin{prompt}
+        $=\begin{pmatrix}
+          \answer{.04} \\
+          \answer{-.06} \\
+          \answer{-.08}
+        \end{pmatrix}$
+      \end{prompt}
+    \item $\|\vec{u}\| \cdot \|\vec{w}\|$ % dot product of two scalars = product of the scalars
+      \begin{prompt}
+        $=\answer{27.46}$
+      \end{prompt}
+    \item $\|\vec{v}\| \cdot \vec{v}$
+      \begin{prompt}
+        $=\answer[format=string]{NA}$
+      \end{prompt}
+    \item $\|\vec{w}\|_{1} \|\vec{v}\|_{\infty}$
+      \begin{prompt}
+        $=\answer{40}$
+      \end{prompt}
+    \item $\vec{u} \cdot \vec{v} + \|\vec{w}\|$
+      \begin{prompt}
+        $=\answer{-8.9}$
+      \end{prompt}
+    \item $\|\vec{v}\|_{1} \|\vec{w}\|_{\infty} \cdot \vec{u}$
+      \begin{prompt}
+        $=\answer[format=string]{NA}$
+      \end{prompt}
+    \item $\|\vec{v}\|_{\infty} \cdot \|\vec{u}\|_{\infty}$
+      \begin{prompt}
+        $=\answer{20}$
+      \end{prompt}
+  \end{enumerate}
+\end{exercise}
+
+\end{document} 
