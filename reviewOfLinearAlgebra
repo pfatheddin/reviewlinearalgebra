@@ -12,6 +12,8 @@
 \part{Load bearing}
 \chapterstyle
 \activity{determinants}
+\sectionstyle
+\activity{determinants}
 
 
 \end{document}
