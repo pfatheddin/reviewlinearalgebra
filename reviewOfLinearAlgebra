@@ -1,0 +1,16 @@
+\documentclass{xourse}
+
+\title{Review of linear algebra}
+
+
+\begin{document}
+\begin{abstract}
+    Some activites to help review linear algebra
+\end{abstract}
+
+\part{Load bearing}
+
+\activity{determinants}
+
+
+\end{document}
